@@ -1,17 +1,43 @@
-# Linear Regression
+# Predicting Brain Weight Based on Head Size Using Linear Regression
 
-Regression analysis is a form of predictive modelling technique which investigaates the relationship between a dependent and independent variable
+## Overview
 
-The three major uses of regrression analysis are 
+This repository contains Python code for building a linear regression model to predict brain weight based on head size. Linear regression is a simple and widely used machine learning algorithm for predicting a continuous variable based on one or more predictor variables.
 
-*Determining the strength of predictors
+## Dataset
 
-*Forecasting an effect, and
+The dataset used for training and testing the model includes measurements of head size (in cubic centimeters) and the corresponding brain weight (in grams). This dataset is commonly used for educational purposes and can be found in various statistical and machine learning resources.
 
-*Trend Forecasting
+## Requirements
 
-This is Python Code for the implementation of Linear Regression for the **Headbrain** dataset
+Make sure you have the following dependencies installed:
 
-(PS- Download both the linear_regression.py file and the headbrain.csv file for the code to run)
+- Python 3.x
+- NumPy
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
 
-Contributor: [Balasubramanian. R](https://github.com/Cyberkid2311)
+You can install these dependencies using the following command:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn
+```
+## Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/brain-weight-prediction.git
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    cd brain-weight-prediction
+
+3. Run the linear_regression_brain_weight.py script:
+
+    ```bash
+    python linear_regression_brain_weight.py
+
+This script will load the dataset, preprocess the data, split it into training and testing sets, train the linear regression model, and evaluate its performance.
